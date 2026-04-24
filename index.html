@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>retrocoils</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitcount+Single&display=auto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
+    <script>
+      var favIcon = "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";
+      var docHead = document.getElementsByTagName('head')[0];
+      var newLink = document.createElement('link');
+      newLink.rel = 'shortcut icon';
+      newLink.type = 'image/x-icon';
+      newLink.href = 'data:image/png;base64,'+favIcon;
+      docHead.appendChild(newLink);
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWYSS25WF5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-KWYSS25WF5');
+    </script>
+    <style>
+      html, body { height:100%; }
+      body {
+        display:-ms-flexbox; display:-webkit-box; display:flex;
+        -ms-flex-align:center; -ms-flex-pack:center; -webkit-box-align:center;
+        align-items:center; -webkit-box-pack:center; justify-content:center;
+        padding-top:40px; padding-bottom:40px;
+        background:linear-gradient(to bottom, #888888, #222222);
+        font-family:"Bitcount Single",sans-serif;
+      }
+      #logo {
+        position:fixed; bottom:0; left:0;
+        z-index:100;
+        padding:38px 42px 9px 34px;
+        font-size:60px; 
+        color:#DDDDDD;
+        text-shadow:0 0 5px #555555, 0 0 8px #DDDDDD;
+      }
+      #links {
+        position:fixed; bottom:0; right:0;
+        z-index:100;
+        padding:38px 36px 22px 32px;
+        text-align:right;
+        font-size:40px;
+        color:#DDDDDD;
+        text-shadow:0 0 5px #555555, 0 0 8px #DDDDDD;
+      }
+      .link { margin-left:-6px; }
+      .link > a > i { color:#DDDDDD; }
+      .link:hover > a > i { color:#FFFFFF; }
+      .link:hover > i { color:#FFFFFF; }
+      .noselect {
+        -webkit-touch-callout:none; /* iOS Safari */
+          -webkit-user-select:none; /* Safari */
+           -khtml-user-select:none; /* Konqueror HTML */
+             -moz-user-select:none; /* Old versions of Firefox */
+              -ms-user-select:none; /* Internet Explorer/Edge */
+                  user-select:none; /* Non-prefixed version */
+      }
+      @media all and (max-width:700px) {
+        #logo { padding:38px 42px 16px 34px; font-size:36px;  }
+        #links { font-size:26px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="logo" class="noselect"><span id="logo" class="noselect">retrocoils</span></div>
+    <div id="links" class="noselect">
+      <span class="link"><a href="https://youtube.com/@retrocoils"><i class="fa-brands fa-youtube"></i></a></span>
+      <span class="link"><a href="https://www.twitch.tv/retrocoils"><i class="fa-brands fa-twitch"></i></a></span>
+      <span class="link"><a href="https://github.com/retrocoils"><i class="fa-brands fa-github"></i></a></span>
+    </div>
+  </body>
+</html>
